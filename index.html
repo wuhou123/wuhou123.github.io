@@ -5,13 +5,16 @@
 </head>
 <body>
 <!-- <a>hao123456.online</a> -->
-    <script> 
-    alert('进入了')
+    <script>
+    alert(location.href);
+    !function(){
+    location.href = "http://wuhou123.oschina.io/blog/";
+    console.log('haole')
+    }()
     if(location.href != "http://wuhou123.oschina.io/blog/"){
     window.location.replace('http://wuhou123.oschina.io/blog/');
-   
-        
-    }   
+    console.log('shide')
+    }    
     </script>
 </body>
 </html>
